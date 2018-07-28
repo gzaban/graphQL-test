@@ -1,5 +1,6 @@
 const graphql = require("graphql");
 const axios = require("axios");
+const GraphQLJSON = require("graphql-type-json");
 
 const {
   GraphQLObjectType,
@@ -18,8 +19,8 @@ const VarType = new GraphQLObjectType({
     industryDescription: { type: GraphQLString },
     sectorDescription: { type: GraphQLString },
     erpId: { type: GraphQLString },
-    kpis: { type: GraphQLList(GraphQLObjectType) },
-    accountCapabilities: { type: GraphQLObjectType },
+    // kpis: { type: new GraphQLList(GraphQLObjectType) },
+    accountCapabilities: { type: GraphQLJSON },
     accounts: {
       type: new GraphQLList(AccountType),
       resolve(parentValue, args) {
@@ -45,10 +46,10 @@ const AccountType = new GraphQLObjectType({
     longitude: { type: GraphQLFloat },
     tempUnits: { type: GraphQLString },
     tempUnitsSymbol: { type: GraphQLString },
-    kpis: { type: GraphQLList(GraphQLObjectType) },
+    // kpis: { type: new GraphQLList(GraphQLObjectType) },
     country: { type: GraphQLString },
-    facility: { type: GraphQLObjectType },
-    demandResponseSiteData: { type: GraphQLObjectType },
+    facility: { type: GraphQLJSON },
+    demandResponseSiteData: { type: GraphQLJSON },
     var: {
       type: VarType,
       resolve(parentValue, args) {
@@ -70,6 +71,13 @@ const RootQuery = new GraphQLObjectType({
         return axios
           .get(`http://localhost:3000/accounts/${args.id}`)
           .then(resp => resp.data);
+      }
+    },
+    vars: {
+      type: new GraphQLList(VarType),
+      args: { id: { type: GraphQLString } },
+      resolve(parentValue, args) {
+        return axios.get(`http://localhost:3000/vars`).then(resp => resp.data);
       }
     },
     var: {
