@@ -32,6 +32,22 @@ const VarType = new GraphQLObjectType({
   })
 });
 
+const FacilityType = new GraphQLObjectType({
+  name: "facility",
+  fields: () => ({
+    id: { type: GraphQLString },
+    name: { type: GraphQLString },
+    accounts: {
+      type: new GraphQLList(AccountType),
+      resolve(parentValue, args) {
+        return axios
+          .get(`http://localhost:3000/accounts/?facilityId=${parentValue.id}`)
+          .then(res => res.data);
+      }
+    }
+  })
+});
+
 const AccountType = new GraphQLObjectType({
   name: "Account",
   fields: () => ({
@@ -48,7 +64,14 @@ const AccountType = new GraphQLObjectType({
     tempUnitsSymbol: { type: GraphQLString },
     // kpis: { type: new GraphQLList(GraphQLObjectType) },
     country: { type: GraphQLString },
-    facility: { type: GraphQLJSON },
+    facility: {
+      type: FacilityType,
+      resolve(parentValue, args) {
+        return axios
+          .get(`http://localhost:3000/facilities/${parentValue.facilityId}`)
+          .then(res => res.data);
+      }
+    },
     demandResponseSiteData: { type: GraphQLJSON },
     var: {
       type: VarType,
@@ -78,6 +101,24 @@ const RootQuery = new GraphQLObjectType({
       args: { id: { type: GraphQLString } },
       resolve(parentValue, args) {
         return axios.get(`http://localhost:3000/vars`).then(resp => resp.data);
+      }
+    },
+    facilities: {
+      type: new GraphQLList(FacilityType),
+      args: { id: { type: GraphQLString } },
+      resolve(parentValue, args) {
+        return axios
+          .get(`http://localhost:3000/facilities`)
+          .then(resp => resp.data);
+      }
+    },
+    facility: {
+      type: FacilityType,
+      args: { id: { type: GraphQLString } },
+      resolve(parentValue, args) {
+        return axios
+          .get(`http://localhost:3000/facilities/${args.id}`)
+          .then(resp => resp.data);
       }
     },
     var: {

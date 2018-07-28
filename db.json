@@ -1207,10 +1207,7 @@
         }
       ],
       "country": "Israel",
-      "facility": {
-        "id": 26,
-        "name": "Office"
-      },
+      "facilityId": 26,
       "demandResponseSiteData": {
         "siteId": 3026,
         "zone": "APS",
@@ -1368,10 +1365,7 @@
         }
       ],
       "country": "Israel",
-      "facility": {
-        "id": 26,
-        "name": "Office"
-      },
+      "facilityId": 26,
       "demandResponseSiteData": {
         "siteId": 32748,
         "zone": "AECO",
@@ -1471,10 +1465,7 @@
         }
       ],
       "country": "USA",
-      "facility": {
-        "id": 26,
-        "name": "Office"
-      },
+      "facilityId": 26,
       "demandResponseSiteData": {
         "siteId": 32749,
         "zone": "Boston",
@@ -1595,10 +1586,7 @@
         }
       ],
       "country": "Israel",
-      "facility": {
-        "id": 26,
-        "name": "Office"
-      }
+      "facilityId": 26
     },
     {
       "id": 32753,
@@ -1643,10 +1631,7 @@
         }
       ],
       "country": "USA",
-      "facility": {
-        "id": 27,
-        "name": "Warehouse/Dist. Center"
-      }
+      "facilityId": 27
     },
     {
       "id": 32754,
@@ -1693,10 +1678,7 @@
         }
       ],
       "country": "Israel",
-      "facility": {
-        "id": 26,
-        "name": "Office"
-      },
+      "facilityId": 26,
       "demandResponseSiteData": {
         "siteId": 32754,
         "zone": "C",
@@ -1843,10 +1825,7 @@
         }
       ],
       "country": "Israel",
-      "facility": {
-        "id": 26,
-        "name": "Office"
-      },
+      "facilityId": 26,
       "demandResponseSiteData": {
         "siteId": 32758,
         "zone": "Boston",
@@ -1996,10 +1975,7 @@
         }
       ],
       "country": "Bulgaria",
-      "facility": {
-        "id": 27,
-        "name": "Warehouse/Dist. Center"
-      }
+      "facilityId": 27
     },
     {
       "id": 32760,
@@ -2045,10 +2021,7 @@
         }
       ],
       "country": "Israel",
-      "facility": {
-        "id": 26,
-        "name": "Office"
-      },
+      "facilityId": 26,
       "demandResponseSiteData": {
         "siteId": 32760,
         "zone": "AECO",
@@ -2152,10 +2125,7 @@
         }
       ],
       "country": "Israel",
-      "facility": {
-        "id": 30,
-        "name": "Other"
-      }
+      "facilityId": 30
     },
     {
       "id": 32765,
@@ -2200,10 +2170,7 @@
         }
       ],
       "country": "Israel",
-      "facility": {
-        "id": 30,
-        "name": "Other"
-      }
+      "facilityId": 30
     },
     {
       "id": 32766,
@@ -2248,10 +2215,7 @@
         }
       ],
       "country": "Israel",
-      "facility": {
-        "id": 30,
-        "name": "Other"
-      }
+      "facilityId": 30
     },
     {
       "id": 32767,
@@ -2296,10 +2260,7 @@
         }
       ],
       "country": "Israel",
-      "facility": {
-        "id": 30,
-        "name": "Other"
-      }
+      "facilityId": 30
     },
     {
       "id": 32768,
@@ -2344,10 +2305,7 @@
         }
       ],
       "country": "Israel",
-      "facility": {
-        "id": 30,
-        "name": "Other"
-      }
+      "facilityId": 30
     },
     {
       "id": 32783,
@@ -2392,10 +2350,7 @@
         }
       ],
       "country": "Israel",
-      "facility": {
-        "id": 30,
-        "name": "Other"
-      }
+      "facilityId": 30
     },
     {
       "id": 32784,
@@ -2440,10 +2395,7 @@
         }
       ],
       "country": "Israel",
-      "facility": {
-        "id": 30,
-        "name": "Other"
-      }
+      "facilityId": 30
     },
     {
       "id": 32801,
@@ -2488,10 +2440,7 @@
         }
       ],
       "country": "USA",
-      "facility": {
-        "id": 28,
-        "name": "Store"
-      }
+      "facilityId": 28
     },
     {
       "id": 32808,
@@ -2536,10 +2485,7 @@
         }
       ],
       "country": "USA",
-      "facility": {
-        "id": 26,
-        "name": "Office"
-      }
+      "facilityId": 26
     },
     {
       "id": 32809,
@@ -2584,10 +2530,7 @@
         }
       ],
       "country": "USA",
-      "facility": {
-        "id": 29,
-        "name": "Residential"
-      }
+      "facilityId": 29
     },
     {
       "id": 32860,
@@ -2632,10 +2575,7 @@
         }
       ],
       "country": "USA",
-      "facility": {
-        "id": 26,
-        "name": "Office"
-      }
+      "facilityId": 26
     },
     {
       "id": 400032933,
@@ -2680,10 +2620,7 @@
         }
       ],
       "country": "USA",
-      "facility": {
-        "id": 29,
-        "name": "Residential"
-      }
+      "facilityId": 29
     },
     {
       "id": 400032942,
@@ -2728,10 +2665,7 @@
         }
       ],
       "country": "USA",
-      "facility": {
-        "id": 29,
-        "name": "Residential"
-      }
+      "facilityId": 29
     },
     {
       "id": 400032964,
@@ -2776,10 +2710,7 @@
         }
       ],
       "country": "Israel",
-      "facility": {
-        "id": 27,
-        "name": "Warehouse/Dist. Center"
-      }
+      "facilityId": 27
     },
     {
       "id": 400032966,
@@ -2824,10 +2755,7 @@
         }
       ],
       "country": "Japan",
-      "facility": {
-        "id": 29,
-        "name": "Residential"
-      }
+      "facilityId": 29
     },
     {
       "id": 400032979,
@@ -2872,10 +2800,7 @@
         }
       ],
       "country": "USA",
-      "facility": {
-        "id": 27,
-        "name": "Warehouse/Dist. Center"
-      }
+      "facilityId": 27
     },
     {
       "id": 400032995,
@@ -2920,10 +2845,29 @@
         }
       ],
       "country": "USA",
-      "facility": {
-        "id": 26,
-        "name": "Office"
-      }
+      "facilityId": 26
+    }
+  ],
+  "facilities": [
+    {
+      "id": 26,
+      "name": "Office"
+    },
+    {
+      "id": 27,
+      "name": "Warehouse/Dist. Center"
+    },
+    {
+      "id": 30,
+      "name": "Other"
+    },
+    {
+      "id": 28,
+      "name": "Store"
+    },
+    {
+      "id": 29,
+      "name": "Residential"
     }
   ]
 }

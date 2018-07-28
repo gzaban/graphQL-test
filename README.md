@@ -38,3 +38,17 @@ examples query
   }
 }
 ```
+
+```javascript
+{
+  facility (id:"27") {
+    name
+    accounts{
+      name
+      var{
+        name
+      }
+    }
+  }
+}
+```
