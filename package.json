@@ -8,7 +8,7 @@
     "url": "https://github.com/gzaban/graphQL-test"
   },
   "scripts": {
-    "dev": "nodemon index.js --ignore client",
+    "dev": "nodemon server.js",
     "server": "json-server --watch db.json",
     "eslint": "eslint ./server/**.js --fix"
   },
