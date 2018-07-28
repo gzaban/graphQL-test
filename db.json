@@ -1,0 +1,2929 @@
+{
+  "vars": [
+    {
+      "id": 1021,
+      "name": "apitest",
+      "industryDescription": "Internal",
+      "sectorDescription": "Friends & Family",
+      "erpId": "",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 3,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 9,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": true,
+        "hasBridges": false,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 1040,
+      "name": "Training Class",
+      "industryDescription": "Other",
+      "sectorDescription": "Other",
+      "erpId": "",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 1,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 10,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": true,
+        "hasBridges": true,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 1094,
+      "name": "EpicHub",
+      "industryDescription": "Other",
+      "sectorDescription": "Other",
+      "erpId": "120066",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 491.72,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 3,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 183,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": true,
+        "hasBridges": true,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 1115,
+      "name": "Pan Staging",
+      "industryDescription": "Other",
+      "sectorDescription": "Other",
+      "erpId": "",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 9,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 231,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 19,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": true,
+        "hasDemandManagement": true,
+        "hasSensors": true,
+        "hasBridges": true,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": true
+      }
+    },
+    {
+      "id": 1154,
+      "name": "Panoramic_Power",
+      "industryDescription": "Real Estate",
+      "sectorDescription": "Office Building",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 224305.97,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 26,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 49,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 4,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": true,
+        "hasDemandManagement": true,
+        "hasSensors": true,
+        "hasBridges": true,
+        "hasGeneration": true,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": true,
+        "hasElectricityMeters": true,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": true
+      }
+    },
+    {
+      "id": 1266,
+      "name": "Trainnew_dm",
+      "industryDescription": "Other",
+      "sectorDescription": "Other",
+      "erpId": "",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 39.69,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 20,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 24,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": true,
+        "hasBridges": true,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 1291,
+      "name": "IL Central District",
+      "industryDescription": "Real Estate",
+      "sectorDescription": "Other",
+      "erpId": "",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 211.76,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 32,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 465,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 2,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": true,
+        "hasDemandManagement": true,
+        "hasSensors": true,
+        "hasBridges": true,
+        "hasGeneration": true,
+        "hasSolar": true,
+        "hasChp": false,
+        "hasLoggers": true,
+        "hasElectricityMeters": true,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 1351,
+      "name": "GBM staging",
+      "industryDescription": "Manufacturing",
+      "sectorDescription": "Electrical, Electronics & Computers",
+      "erpId": "",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 1,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": false,
+        "hasBridges": true,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 1411,
+      "name": "Professional Services US Employees",
+      "industryDescription": "Utility",
+      "sectorDescription": "Electric Power Distribution",
+      "erpId": "",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 9.57,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 15,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 88,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": true,
+        "hasBridges": true,
+        "hasGeneration": true,
+        "hasSolar": true,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 1461,
+      "name": "Demo Account",
+      "industryDescription": "Manufacturing",
+      "sectorDescription": "Machinery",
+      "erpId": "",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 3648.2,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 12,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 1147,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 2,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": true,
+        "hasDemandManagement": true,
+        "hasSensors": true,
+        "hasBridges": true,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": true,
+        "hasElectricityMeters": true,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 1584,
+      "name": "Art_Ruiz",
+      "industryDescription": "Manufacturing",
+      "sectorDescription": "Food, Beverage & Tobacco",
+      "erpId": "",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 2,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 3,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": true,
+        "hasBridges": true,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 1707,
+      "name": "Virgin - PING ",
+      "industryDescription": "Information Tech",
+      "sectorDescription": "Telecom",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 1,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 2,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": true,
+        "hasBridges": true,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 1892,
+      "name": "Deployment Demo",
+      "industryDescription": "Manufacturing",
+      "sectorDescription": "Machinery",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": false,
+        "hasBridges": false,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 2519,
+      "name": "test7",
+      "industryDescription": "Healthcare",
+      "sectorDescription": "Hospital",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": false,
+        "hasBridges": false,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 2615,
+      "name": "invar",
+      "industryDescription": "Real Estate",
+      "sectorDescription": "Campus",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": false,
+        "hasBridges": false,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 2616,
+      "name": "ענבר ליביס",
+      "industryDescription": "Education",
+      "sectorDescription": "Elementary and Secondary (K-12)",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": false,
+        "hasBridges": false,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 2622,
+      "name": "test-yuval3",
+      "industryDescription": "Education",
+      "sectorDescription": "Adult Education",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": false,
+        "hasBridges": false,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 2623,
+      "name": "test-yuval4",
+      "industryDescription": "Education",
+      "sectorDescription": "Adult Education",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": false,
+        "hasBridges": false,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 2629,
+      "name": "test-account-yuval",
+      "industryDescription": "Government",
+      "sectorDescription": "Civilian",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": false,
+        "hasBridges": false,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 2630,
+      "name": "libis",
+      "industryDescription": "Government",
+      "sectorDescription": "Military",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 1,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": false,
+        "hasBridges": true,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": true,
+        "hasElectricityMeters": false,
+        "hasGasMeters": true,
+        "hasHeatMeters": true,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 2631,
+      "name": "Gen4_embedded testing",
+      "industryDescription": "Utility",
+      "sectorDescription": "Other",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 11593.56,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 16,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 15,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": true,
+        "hasBridges": true,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": true,
+        "hasElectricityMeters": true,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 500002665,
+      "name": "jhfgd",
+      "industryDescription": "Government",
+      "sectorDescription": "Military",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 1,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": false,
+        "hasBridges": false,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    },
+    {
+      "id": 500002670,
+      "name": "iii",
+      "industryDescription": "Government",
+      "sectorDescription": "Military",
+      "erpId": "",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sites",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "PowerMeters",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "accountCapabilities": {
+        "hasDemandResponse": false,
+        "hasDemandManagement": false,
+        "hasSensors": false,
+        "hasBridges": false,
+        "hasGeneration": false,
+        "hasSolar": false,
+        "hasChp": false,
+        "hasLoggers": false,
+        "hasElectricityMeters": false,
+        "hasGasMeters": false,
+        "hasHeatMeters": false,
+        "hasUIMMeters": false
+      }
+    }
+  ],
+  "accounts": [
+    {
+      "id": 3026,
+      "varId": 1021,
+      "name": "Panoramic Offices",
+      "highestAlertSeverity": "High",
+      "status": "closed",
+      "currency": "USD",
+      "currencySymbol": "$",
+      "address": "Atir Yeda 15, Kfar-Saba, Central, EU, Israel",
+      "latitude": 32.16184,
+      "longitude": 34.934137,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 145.28,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "BridgesAndLoggers",
+          "total": 5,
+          "partial": 1,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 37,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 1895,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "Israel",
+      "facility": {
+        "id": 26,
+        "name": "Office"
+      },
+      "demandResponseSiteData": {
+        "siteId": 3026,
+        "zone": "APS",
+        "serviceLocationName": null,
+        "edcPrefix": "AECI",
+        "isoMarket": "PJM",
+        "programs": [
+          {
+            "id": 1008,
+            "assignedMeters": [
+              {
+                "id": 6779,
+                "name": "LG_INT5_M2",
+                "serialNumber": "LG_INT5_C2",
+                "loggerId": 3142,
+                "loggerName": "LG_SIM_5",
+                "meterType": "Electricity",
+                "channelNumber": 2,
+                "modbusDevice": 250
+              },
+              {
+                "id": 6780,
+                "name": "LG_INT5_M3",
+                "serialNumber": "LG_INT5_C3",
+                "loggerId": 3142,
+                "loggerName": "LG_SIM_5",
+                "meterType": "Electricity",
+                "channelNumber": 3,
+                "modbusDevice": 250
+              },
+              {
+                "id": 6778,
+                "name": "LG_INT5_M1",
+                "serialNumber": "LG_INT5_C1",
+                "loggerId": 3142,
+                "loggerName": "LG_SIM_5",
+                "meterType": "Electricity",
+                "channelNumber": 1,
+                "modbusDevice": 250
+              }
+            ],
+            "edcAccountNumber": "3026630266",
+            "programTypeName": "PJM Capacity",
+            "enrollments": [
+              {
+                "id": 1112,
+                "currentConsumption": {
+                  "x": 0,
+                  "y": 0,
+                  "plc": 90000,
+                  "fsl": 50000
+                },
+                "startTime": 1514764800,
+                "endTime": 1535759999,
+                "enrollmentPeriod": "current",
+                "fsl": 50000,
+                "plc": 90000,
+                "curtailment": 0,
+                "enrolledPower": 40000
+              }
+            ],
+            "dynamic": false
+          },
+          {
+            "id": 1005,
+            "assignedMeters": [
+              {
+                "id": 6781,
+                "name": "LG_INT1_C1",
+                "serialNumber": "LG_INT1_M1",
+                "loggerId": 3143,
+                "loggerName": "LG_SIM_1",
+                "meterType": "Electricity",
+                "channelNumber": 1,
+                "modbusDevice": 250
+              },
+              {
+                "id": 6782,
+                "name": "LG_INT1_C2",
+                "serialNumber": "LG_INT1_M2",
+                "loggerId": 3143,
+                "loggerName": "LG_SIM_1",
+                "meterType": "Electricity",
+                "channelNumber": 2,
+                "modbusDevice": 250
+              }
+            ],
+            "edcAccountNumber": "3026",
+            "programTypeName": "PJM Capacity",
+            "enrollments": [
+              {
+                "id": 1109,
+                "currentConsumption": {
+                  "x": 1532780700,
+                  "y": 22080,
+                  "plc": 40000,
+                  "fsl": 20000
+                },
+                "startTime": 1501545600,
+                "endTime": 1533081599,
+                "enrollmentPeriod": "current",
+                "fsl": 20000,
+                "plc": 40000,
+                "curtailment": 0,
+                "enrolledPower": 20000
+              }
+            ],
+            "dynamic": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 32748,
+      "varId": 1021,
+      "name": "Clara's site",
+      "highestAlertSeverity": "High",
+      "status": "closed",
+      "currency": "USD",
+      "currencySymbol": "$",
+      "address":
+        "Simtat Shai Agnon 6-10, Giv'at Shmu'el, Giv'at Shmu'el, Israel",
+      "latitude": 32.0788822,
+      "longitude": 34.85634140000002,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 684,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "BridgesAndLoggers",
+          "total": 5,
+          "partial": 1,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 213,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "Israel",
+      "facility": {
+        "id": 26,
+        "name": "Office"
+      },
+      "demandResponseSiteData": {
+        "siteId": 32748,
+        "zone": "AECO",
+        "serviceLocationName": "clara1_utility_11",
+        "edcPrefix": "PPL",
+        "isoMarket": "PJM",
+        "programs": [
+          {
+            "id": 1044,
+            "assignedMeters": [
+              {
+                "id": 7735,
+                "name": "Gen4Clara1M1",
+                "serialNumber": "Gen4Clara1M1",
+                "loggerId": 3607,
+                "loggerName": "Gen4_Clara_1",
+                "meterType": "Electricity",
+                "channelNumber": 1,
+                "modbusDevice": 0
+              },
+              {
+                "id": 7736,
+                "name": "Gen4Clara1M2",
+                "serialNumber": "Gen4Clara1M2",
+                "loggerId": 3607,
+                "loggerName": "Gen4_Clara_1",
+                "meterType": "Electricity",
+                "channelNumber": 2,
+                "modbusDevice": 0
+              }
+            ],
+            "edcAccountNumber": "clara1_utility_11",
+            "programTypeName": "PJM Capacity",
+            "enrollments": [
+              {
+                "id": 1146,
+                "currentConsumption": {
+                  "x": 1532781000,
+                  "y": 624000,
+                  "plc": 5000,
+                  "fsl": 2000
+                },
+                "startTime": 1514764800,
+                "endTime": 1546300799,
+                "enrollmentPeriod": "current",
+                "fsl": 2000,
+                "plc": 5000,
+                "curtailment": 0,
+                "enrolledPower": 3000
+              }
+            ],
+            "dynamic": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 32749,
+      "varId": 1021,
+      "name": "Gen4_Testing",
+      "status": "closed",
+      "currency": "BRL",
+      "currencySymbol": "R$",
+      "address": "275 E 161st St, Bronx, NY 10451, Bronx County, New York, USA",
+      "latitude": 40.82577029999999,
+      "longitude": -73.91802139999999,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 1449,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 1,
+          "partial": 1,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "USA",
+      "facility": {
+        "id": 26,
+        "name": "Office"
+      },
+      "demandResponseSiteData": {
+        "siteId": 32749,
+        "zone": "Boston",
+        "serviceLocationName": "",
+        "edcPrefix": "WE",
+        "isoMarket": "ISONE",
+        "programs": [
+          {
+            "id": 1006,
+            "assignedMeters": null,
+            "edcAccountNumber": "3274932749",
+            "programTypeName": "ISONE RTDR",
+            "enrollments": [
+              {
+                "id": 1110,
+                "currentConsumption": {
+                  "x": 1532781239,
+                  "y": 0,
+                  "plc": 0,
+                  "fsl": 0
+                },
+                "startTime": 1514764800,
+                "endTime": 1533081599,
+                "enrollmentPeriod": "current",
+                "fsl": 0,
+                "plc": 0,
+                "curtailment": 30000,
+                "enrolledPower": 30000
+              }
+            ],
+            "dynamic": true
+          },
+          {
+            "id": 1007,
+            "assignedMeters": null,
+            "edcAccountNumber": "3275032750",
+            "programTypeName": "ISONE RTDR",
+            "enrollments": [
+              {
+                "id": 1117,
+                "currentConsumption": {
+                  "x": 1532781239,
+                  "y": 0,
+                  "plc": 0,
+                  "fsl": 0
+                },
+                "startTime": 1543622400,
+                "endTime": 1554076799,
+                "enrollmentPeriod": "future",
+                "fsl": 0,
+                "plc": 0,
+                "curtailment": 10000,
+                "enrolledPower": 10000
+              },
+              {
+                "id": 1111,
+                "currentConsumption": {
+                  "x": 1532781239,
+                  "y": 0,
+                  "plc": 0,
+                  "fsl": 0
+                },
+                "startTime": 1483228800,
+                "endTime": 1538351999,
+                "enrollmentPeriod": "current",
+                "fsl": 0,
+                "plc": 0,
+                "curtailment": 20000,
+                "enrolledPower": 20000
+              }
+            ],
+            "dynamic": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 32750,
+      "varId": 1021,
+      "name": "nimrod testing",
+      "highestAlertSeverity": "High",
+      "status": "closed",
+      "currency": "ILS",
+      "currencySymbol": "₪",
+      "address": "Atir Yeda St 11, Kefar Sava, Kefar Sava, Israel",
+      "latitude": 32.1627173,
+      "longitude": 34.93224559999999,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 0,
+          "partial": 0,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 18,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "Israel",
+      "facility": {
+        "id": 26,
+        "name": "Office"
+      }
+    },
+    {
+      "id": 32753,
+      "varId": 1021,
+      "name": "y not",
+      "status": "closed",
+      "currency": "DKK",
+      "currencySymbol": "kr",
+      "address": "1 Centre St, New York, New York, USA",
+      "latitude": 40.7128238,
+      "longitude": -74.0037087,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0.13,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 0,
+          "partial": 0,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 5,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "USA",
+      "facility": {
+        "id": 27,
+        "name": "Warehouse/Dist. Center"
+      }
+    },
+    {
+      "id": 32754,
+      "varId": 1021,
+      "name": "Gen4 DR NYISO",
+      "highestAlertSeverity": "High",
+      "status": "closed",
+      "currency": "DKK",
+      "currencySymbol": "kr",
+      "address":
+        "Khoma u-Migdal St 19, Rishon LeTsiyon, Rishon LeTsiyon, Center District, Israel",
+      "latitude": 31.9633956,
+      "longitude": 34.77575090000005,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 425.15,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 1,
+          "partial": 0,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 2,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 4,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "Israel",
+      "facility": {
+        "id": 26,
+        "name": "Office"
+      },
+      "demandResponseSiteData": {
+        "siteId": 32754,
+        "zone": "C",
+        "serviceLocationName": null,
+        "edcPrefix": "Con Edison",
+        "isoMarket": "NYISO",
+        "programs": [
+          {
+            "id": 1030,
+            "assignedMeters": [
+              {
+                "id": 1963,
+                "name": "C1_271900025",
+                "serialNumber": "M1_271900025",
+                "loggerId": 853,
+                "loggerName": "G4_Testbed_1",
+                "meterType": "Electricity",
+                "channelNumber": 1,
+                "modbusDevice": 0
+              },
+              {
+                "id": 1964,
+                "name": "C2_271900025",
+                "serialNumber": "M2_271900025",
+                "loggerId": 853,
+                "loggerName": "G4_Testbed_1",
+                "meterType": "Electricity",
+                "channelNumber": 2,
+                "modbusDevice": 0
+              }
+            ],
+            "edcAccountNumber": "32754",
+            "programTypeName": "Utility BQDM",
+            "enrollments": [
+              {
+                "id": 1135,
+                "currentConsumption": {
+                  "x": 0,
+                  "y": 0,
+                  "plc": 0,
+                  "fsl": 0
+                },
+                "startTime": 1512086400,
+                "endTime": 1546300799,
+                "enrollmentPeriod": "current",
+                "fsl": 0,
+                "plc": 0,
+                "curtailment": 100000,
+                "enrolledPower": 100000
+              }
+            ],
+            "dynamic": true
+          },
+          {
+            "id": 1035,
+            "assignedMeters": [
+              {
+                "id": 1963,
+                "name": "C1_271900025",
+                "serialNumber": "M1_271900025",
+                "loggerId": 853,
+                "loggerName": "G4_Testbed_1",
+                "meterType": "Electricity",
+                "channelNumber": 1,
+                "modbusDevice": 0
+              },
+              {
+                "id": 1964,
+                "name": "C2_271900025",
+                "serialNumber": "M2_271900025",
+                "loggerId": 853,
+                "loggerName": "G4_Testbed_1",
+                "meterType": "Electricity",
+                "channelNumber": 2,
+                "modbusDevice": 0
+              }
+            ],
+            "edcAccountNumber": "32754",
+            "programTypeName": "Utility DLRP",
+            "enrollments": [
+              {
+                "id": 1138,
+                "currentConsumption": {
+                  "x": 0,
+                  "y": 0,
+                  "plc": 0,
+                  "fsl": 0
+                },
+                "startTime": 1514764800,
+                "endTime": 1533081599,
+                "enrollmentPeriod": "current",
+                "fsl": 0,
+                "plc": 0,
+                "curtailment": 3000,
+                "enrolledPower": 3000
+              }
+            ],
+            "dynamic": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 32758,
+      "varId": 1021,
+      "name": "Echelon ISONE Test",
+      "status": "closed",
+      "currency": "DKK",
+      "currencySymbol": "kr",
+      "address":
+        "Atir Yeda St 10, Kefar Sava, Kefar Sava, Center District, Israel",
+      "latitude": 32.1627101,
+      "longitude": 34.932261700000026,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 80.06,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Loggers",
+          "total": 2,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "Israel",
+      "facility": {
+        "id": 26,
+        "name": "Office"
+      },
+      "demandResponseSiteData": {
+        "siteId": 32758,
+        "zone": "Boston",
+        "serviceLocationName": null,
+        "edcPrefix": "BED",
+        "isoMarket": "ISONE",
+        "programs": [
+          {
+            "id": 1026,
+            "assignedMeters": [
+              {
+                "id": 3377,
+                "name": "M4_LG_EchelonOB_4",
+                "serialNumber": "C4_LG_EchelonOB_4",
+                "loggerId": 862,
+                "loggerName": "LG_Echelon_OB_1",
+                "meterType": "Electricity",
+                "channelNumber": 4,
+                "modbusDevice": 250
+              },
+              {
+                "id": 3376,
+                "name": "M3_LG_EchelonOB_3",
+                "serialNumber": "C3_LG_EchelonOB_3",
+                "loggerId": 862,
+                "loggerName": "LG_Echelon_OB_1",
+                "meterType": "Electricity",
+                "channelNumber": 3,
+                "modbusDevice": 250
+              }
+            ],
+            "edcAccountNumber": "32758",
+            "programTypeName": "ISONE RTDR",
+            "enrollments": [
+              {
+                "id": 1131,
+                "currentConsumption": {
+                  "x": 1532781000,
+                  "y": 2220,
+                  "plc": 0,
+                  "fsl": 0
+                },
+                "startTime": 1512086400,
+                "endTime": 1546300799,
+                "enrollmentPeriod": "current",
+                "fsl": 0,
+                "plc": 0,
+                "curtailment": 1000,
+                "enrolledPower": 1000
+              }
+            ],
+            "dynamic": true
+          },
+          {
+            "id": 1032,
+            "assignedMeters": null,
+            "edcAccountNumber": "3275832758",
+            "programTypeName": "ISONE RTDR",
+            "enrollments": [
+              {
+                "id": 1137,
+                "currentConsumption": {
+                  "x": 1532781239,
+                  "y": 0,
+                  "plc": 0,
+                  "fsl": 0
+                },
+                "startTime": 1388534400,
+                "endTime": 1546300799,
+                "enrollmentPeriod": "current",
+                "fsl": 0,
+                "plc": 0,
+                "curtailment": 100000,
+                "enrolledPower": 100000
+              }
+            ],
+            "dynamic": true
+          },
+          {
+            "id": 1037,
+            "assignedMeters": null,
+            "edcAccountNumber": "426144",
+            "programTypeName": "ISONE RTDR",
+            "enrollments": [
+              {
+                "id": 1140,
+                "currentConsumption": {
+                  "x": 1532781239,
+                  "y": 0,
+                  "plc": 0,
+                  "fsl": 0
+                },
+                "startTime": 1420070400,
+                "endTime": 1546300799,
+                "enrollmentPeriod": "current",
+                "fsl": 0,
+                "plc": 0,
+                "curtailment": 150000,
+                "enrolledPower": 150000
+              }
+            ],
+            "dynamic": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 32759,
+      "varId": 1021,
+      "name": "Honeywell test",
+      "status": "closed",
+      "currency": "DKK",
+      "currencySymbol": "kr",
+      "address": "8112 153, 2222 Aldomirovtsi, Aldomirovtsi, Bulgaria",
+      "latitude": 42.8491411,
+      "longitude": 22.981920899999977,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Loggers",
+          "total": 4,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "Bulgaria",
+      "facility": {
+        "id": 27,
+        "name": "Warehouse/Dist. Center"
+      }
+    },
+    {
+      "id": 32760,
+      "varId": 1021,
+      "name": "UIM_DR",
+      "highestAlertSeverity": "Medium",
+      "status": "closed",
+      "currency": "DKK",
+      "currencySymbol": "kr",
+      "address": "3, Ashkelon, Israel",
+      "latitude": 31.69870169999999,
+      "longitude": 34.700968999999986,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 2345.76,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 0,
+          "partial": 0,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 72,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "Israel",
+      "facility": {
+        "id": 26,
+        "name": "Office"
+      },
+      "demandResponseSiteData": {
+        "siteId": 32760,
+        "zone": "AECO",
+        "serviceLocationName": null,
+        "edcPrefix": "AE",
+        "isoMarket": "PJM",
+        "programs": [
+          {
+            "id": 1031,
+            "assignedMeters": null,
+            "edcAccountNumber": "32760",
+            "programTypeName": "PJM Capacity",
+            "enrollments": [
+              {
+                "id": 1136,
+                "currentConsumption": {
+                  "x": 1532781239,
+                  "y": 0,
+                  "plc": 3000000,
+                  "fsl": 1000000
+                },
+                "startTime": 1420070400,
+                "endTime": 1546300799,
+                "enrollmentPeriod": "current",
+                "fsl": 1000000,
+                "plc": 3000000,
+                "curtailment": 0,
+                "enrolledPower": 2000000
+              }
+            ],
+            "dynamic": false
+          },
+          {
+            "id": 1012,
+            "assignedMeters": null,
+            "edcAccountNumber": "3276032760",
+            "programTypeName": "PJM Capacity",
+            "enrollments": [
+              {
+                "id": 1116,
+                "currentConsumption": {
+                  "x": 1532781239,
+                  "y": 0,
+                  "plc": 4000000,
+                  "fsl": 1000000
+                },
+                "startTime": 1451606400,
+                "endTime": 1535759999,
+                "enrollmentPeriod": "current",
+                "fsl": 1000000,
+                "plc": 4000000,
+                "curtailment": 0,
+                "enrolledPower": 3000000
+              }
+            ],
+            "dynamic": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 32764,
+      "varId": 1021,
+      "name": "Bug search site 1",
+      "status": "closed",
+      "currency": "ILS",
+      "currencySymbol": "₪",
+      "address": "Atir Yeda St 15, Kefar Sava, Kefar Sava, Israel",
+      "latitude": 32.1620009,
+      "longitude": 34.93434309999998,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 1,
+          "partial": 1,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 1,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "Israel",
+      "facility": {
+        "id": 30,
+        "name": "Other"
+      }
+    },
+    {
+      "id": 32765,
+      "varId": 1040,
+      "name": "Bug search site 2",
+      "status": "closed",
+      "currency": "ILS",
+      "currencySymbol": "₪",
+      "address": "Atir Yeda St 15, Kefar Sava, Kefar Sava, Israel",
+      "latitude": 32.1620009,
+      "longitude": 34.93434309999998,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 1,
+          "partial": 1,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 1,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "Israel",
+      "facility": {
+        "id": 30,
+        "name": "Other"
+      }
+    },
+    {
+      "id": 32766,
+      "varId": 1040,
+      "name": "Bug search site 3",
+      "status": "closed",
+      "currency": "ILS",
+      "currencySymbol": "₪",
+      "address": "Atir Yeda St 15, Kefar Sava, Kefar Sava, Israel",
+      "latitude": 32.1620009,
+      "longitude": 34.93434309999998,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 1,
+          "partial": 1,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 1,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "Israel",
+      "facility": {
+        "id": 30,
+        "name": "Other"
+      }
+    },
+    {
+      "id": 32767,
+      "varId": 1040,
+      "name": "Bug search site 4",
+      "status": "closed",
+      "currency": "ILS",
+      "currencySymbol": "₪",
+      "address": "Atir Yeda St 15, Kefar Sava, Kefar Sava, Israel",
+      "latitude": 32.1620009,
+      "longitude": 34.93434309999998,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 1,
+          "partial": 1,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 1,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "Israel",
+      "facility": {
+        "id": 30,
+        "name": "Other"
+      }
+    },
+    {
+      "id": 32768,
+      "varId": 1040,
+      "name": "Bug search site 5",
+      "status": "closed",
+      "currency": "ILS",
+      "currencySymbol": "₪",
+      "address": "Atir Yeda St 15, Kefar Sava, Kefar Sava, Israel",
+      "latitude": 32.1620009,
+      "longitude": 34.93434309999998,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 1,
+          "partial": 1,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 1,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "Israel",
+      "facility": {
+        "id": 30,
+        "name": "Other"
+      }
+    },
+    {
+      "id": 32783,
+      "varId": 1040,
+      "name": "Bug search site 6",
+      "status": "closed",
+      "currency": "ILS",
+      "currencySymbol": "₪",
+      "address": "Atir Yeda St 15, Kefar Sava, Kefar Sava, Israel",
+      "latitude": 32.1620217,
+      "longitude": 34.934317100000044,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 1,
+          "partial": 1,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 1,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "Israel",
+      "facility": {
+        "id": 30,
+        "name": "Other"
+      }
+    },
+    {
+      "id": 32784,
+      "varId": 1040,
+      "name": "Bug search site 7",
+      "status": "closed",
+      "currency": "ILS",
+      "currencySymbol": "₪",
+      "address": "Atir Yeda St 15, Kefar Sava, Kefar Sava, Israel",
+      "latitude": 32.1620217,
+      "longitude": 34.934317100000044,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 1,
+          "partial": 0,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 1,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "Israel",
+      "facility": {
+        "id": 30,
+        "name": "Other"
+      }
+    },
+    {
+      "id": 32801,
+      "varId": 1040,
+      "name": "Second Clara's",
+      "status": "closed",
+      "currency": "ILS",
+      "currencySymbol": "₪",
+      "address": "25 Park Row, New York, New York, USA",
+      "latitude": 40.7114529,
+      "longitude": -74.00745269999999,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Loggers",
+          "total": 1,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "USA",
+      "facility": {
+        "id": 28,
+        "name": "Store"
+      }
+    },
+    {
+      "id": 32808,
+      "varId": 1040,
+      "name": "Load_Test_Obvius",
+      "status": "closed",
+      "currency": "USD",
+      "currencySymbol": "$",
+      "address": "65 Worth St, New York, New York, USA",
+      "latitude": 40.7170757,
+      "longitude": -74.00601879999999,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 109560.41,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Loggers",
+          "total": 600,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "USA",
+      "facility": {
+        "id": 26,
+        "name": "Office"
+      }
+    },
+    {
+      "id": 32809,
+      "varId": 1040,
+      "name": "Load_Test_Echelon",
+      "status": "closed",
+      "currency": "USD",
+      "currencySymbol": "$",
+      "address": "150 Canal St, New York, New York, USA",
+      "latitude": 40.7163437,
+      "longitude": -73.99638620000002,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 109616.2,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Loggers",
+          "total": 600,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "USA",
+      "facility": {
+        "id": 29,
+        "name": "Residential"
+      }
+    },
+    {
+      "id": 32860,
+      "varId": 1040,
+      "name": "YONATAN",
+      "status": "closed",
+      "currency": "DKK",
+      "currencySymbol": "kr",
+      "address": "361 Broadway, New York, New York, USA",
+      "latitude": 40.7174975,
+      "longitude": -74.00398410000003,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 0,
+          "partial": 0,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 2,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "USA",
+      "facility": {
+        "id": 26,
+        "name": "Office"
+      }
+    },
+    {
+      "id": 400032933,
+      "varId": 1040,
+      "name": "US Panels Il 1",
+      "status": "closed",
+      "currency": "ILS",
+      "currencySymbol": "₪",
+      "address": "879 Amsterdam Ave, New York, New York, USA",
+      "latitude": 40.7984822,
+      "longitude": -73.96713490000002,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 0,
+          "partial": 0,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "USA",
+      "facility": {
+        "id": 29,
+        "name": "Residential"
+      }
+    },
+    {
+      "id": 400032942,
+      "varId": 1040,
+      "name": "US Panels Il 2",
+      "status": "closed",
+      "currency": "ILS",
+      "currencySymbol": "₪",
+      "address": "149 Church St, New York, New York, USA",
+      "latitude": 40.7144703,
+      "longitude": -74.00804499999998,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 0,
+          "partial": 0,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "USA",
+      "facility": {
+        "id": 29,
+        "name": "Residential"
+      }
+    },
+    {
+      "id": 400032964,
+      "varId": 1040,
+      "name": "Guy Tzaban",
+      "status": "closed",
+      "currency": "BRL",
+      "currencySymbol": "R$",
+      "address": "Zevulun St 20, Tel Aviv-Yafo, Tel Aviv-Yafo, Israel",
+      "latitude": 32.0592252,
+      "longitude": 34.772646699999996,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 0,
+          "partial": 0,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 1,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "Israel",
+      "facility": {
+        "id": 27,
+        "name": "Warehouse/Dist. Center"
+      }
+    },
+    {
+      "id": 400032966,
+      "varId": 1040,
+      "name": "Panel Jap test",
+      "status": "closed",
+      "currency": "ILS",
+      "currencySymbol": "₪",
+      "address": "Shinjuku-ku, Japan",
+      "latitude": 35.7057181,
+      "longitude": 139.7369916,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 0,
+          "partial": 0,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "Japan",
+      "facility": {
+        "id": 29,
+        "name": "Residential"
+      }
+    },
+    {
+      "id": 400032979,
+      "varId": 1040,
+      "name": "inbar-USA",
+      "status": "closed",
+      "currency": "ILS",
+      "currencySymbol": "₪",
+      "address": "159 Church St, New York, New York, USA",
+      "latitude": 40.71488470000001,
+      "longitude": -74.0077417,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 0,
+          "partial": 0,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "USA",
+      "facility": {
+        "id": 27,
+        "name": "Warehouse/Dist. Center"
+      }
+    },
+    {
+      "id": 400032995,
+      "varId": 1040,
+      "name": "inbar1000",
+      "status": "closed",
+      "currency": "ILS",
+      "currencySymbol": "₪",
+      "address": "3907 10th Ave NE, Drake, ND 58736, Drake, North Dakota, USA",
+      "latitude": 47.9824607,
+      "longitude": -100.37057490000001,
+      "tempUnits": "fahrenheit",
+      "tempUnitsSymbol": "℉",
+      "kpis": [
+        {
+          "type": "ManagedPower",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Bridges",
+          "total": 0,
+          "partial": 0,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Sensors",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        },
+        {
+          "type": "Alerts",
+          "total": 0,
+          "partial": null,
+          "partialDisplayString": null,
+          "totalDisplayString": null
+        }
+      ],
+      "country": "USA",
+      "facility": {
+        "id": 26,
+        "name": "Office"
+      }
+    }
+  ]
+}
