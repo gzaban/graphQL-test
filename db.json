@@ -1328,8 +1328,7 @@
       "status": "closed",
       "currency": "USD",
       "currencySymbol": "$",
-      "address":
-        "Simtat Shai Agnon 6-10, Giv'at Shmu'el, Giv'at Shmu'el, Israel",
+      "address": "Simtat Shai Agnon 6-10, Giv'at Shmu'el, Giv'at Shmu'el, Israel",
       "latitude": 32.0788822,
       "longitude": 34.85634140000002,
       "tempUnits": "fahrenheit",
@@ -1641,8 +1640,7 @@
       "status": "closed",
       "currency": "DKK",
       "currencySymbol": "kr",
-      "address":
-        "Khoma u-Migdal St 19, Rishon LeTsiyon, Rishon LeTsiyon, Center District, Israel",
+      "address": "Khoma u-Migdal St 19, Rishon LeTsiyon, Rishon LeTsiyon, Center District, Israel",
       "latitude": 31.9633956,
       "longitude": 34.77575090000005,
       "tempUnits": "fahrenheit",
@@ -1788,8 +1786,7 @@
       "status": "closed",
       "currency": "DKK",
       "currencySymbol": "kr",
-      "address":
-        "Atir Yeda St 10, Kefar Sava, Kefar Sava, Center District, Israel",
+      "address": "Atir Yeda St 10, Kefar Sava, Kefar Sava, Center District, Israel",
       "latitude": 32.1627101,
       "longitude": 34.932261700000026,
       "tempUnits": "fahrenheit",
@@ -2868,6 +2865,10 @@
     {
       "id": 29,
       "name": "Residential"
+    },
+    {
+      "name": "Guy",
+      "id": 31
     }
   ]
 }

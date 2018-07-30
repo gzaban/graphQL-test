@@ -136,6 +136,17 @@ const RootQuery = new GraphQLObjectType({
 const mutation = new GraphQLObjectType({
   name: "Mutation",
   fields: {
+    addFacility: {
+      type: FacilityType,
+      args: {
+        name: { type: new GraphQLNonNull(GraphQLString) }
+      },
+      resolve(parentValue, { name }) {
+        return axios
+          .post("http://localhost:3000/facilities", { name })
+          .then(res => res.data);
+      }
+    },
     addAccount: {
       type: AccountType,
       args: {
